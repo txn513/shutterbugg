@@ -46,3 +46,10 @@ a {
   text-decoration: none;
 }
 
+/*section*/
+.section .row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+
