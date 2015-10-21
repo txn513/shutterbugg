@@ -1,0 +1,48 @@
+.container {
+  max-width: 928px;
+}
+
+h1, h2, p, a {
+  font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+a {
+  font-size:18px;
+  font-weight: 200;
+  text-decoration:none;
+}
+ p {
+	font-size: 26px;
+	 font-weight: 200;
+ }
+/*main */
+.main {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg) no-repeat;
+  background-size:cover;
+  height: 550px;
+  padding-top: 55px;
+}
+.main p {
+  font-size: 26px;
+  font-weight: 200;  
+  margin-bottom: 40px;
+}
+.download{
+	background-color: rgba(238,68,95,0.9);
+  padding:10px;
+  border-radius:10px;
+  color: #fff;
+  transition:box-shadow 0.5s;
+}
+.download:hover{
+	box-shadow:0px 1px 6px rgba(0,0,0,0.6);
+  color: #fff;
+  text-decoration: none;
+}
+
